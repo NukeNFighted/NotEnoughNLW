@@ -1,4 +1,4 @@
-# NotEnoughNLW
+# NotEnoughNonLethalWeapons
 
 This mod aims to add more non-lethal weapons to Rimworld
 

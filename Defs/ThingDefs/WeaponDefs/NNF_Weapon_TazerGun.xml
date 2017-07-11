@@ -41,7 +41,7 @@
     </costList>
     <verbs>
       <li>
-        <verbClass>Verb_Shoot</verbClass>
+        <verbClass>Verb_ShootOneUse</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>NNF_Bullet_Tazer</projectileDef>
         <warmupTime>0.3</warmupTime>

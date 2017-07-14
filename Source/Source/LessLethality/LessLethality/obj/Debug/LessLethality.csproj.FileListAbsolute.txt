@@ -1,8 +1,0 @@
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\NotEnoughNLW\Source\LessLethality\LessLethality\bin\Debug\LessLethality.dll
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\NotEnoughNLW\Source\LessLethality\LessLethality\bin\Debug\0Harmony.dll
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\NotEnoughNLW\Source\LessLethality\LessLethality\obj\Debug\LessLethality.csprojResolveAssemblyReference.cache
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\NotEnoughNLW\Source\LessLethality\LessLethality\obj\Debug\LessLethality.dll
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\NotEnoughNLW\Assemblies\LessLethality.dll
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\NotEnoughNLW-master\Source\LessLethality\LessLethality\obj\Debug\LessLethality.csprojResolveAssemblyReference.cache
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\NotEnoughNLW-master\Source\LessLethality\LessLethality\obj\Debug\LessLethality.dll
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\NotEnoughNLW-master\Assemblies\LessLethality.dll

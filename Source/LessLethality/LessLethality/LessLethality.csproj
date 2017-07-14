@@ -49,9 +49,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HediffDef_Bruising.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Patch.cs" />
+    <Compile Include="Projectile_BeanBag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThingDef_BeanBag.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

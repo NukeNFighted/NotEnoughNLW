@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<DefPackage>
+
+   <SoundDef>
+    <defName>NNF_SoundDef_StunBaton</defName>
+    <context>MapOnly</context> 
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>NNF_Sound_StunBaton</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>20</min>
+          <max>20</max>
+        </volumeRange>
+        <pitchRange>
+          <min>1.0</min>
+          <max>1.2/</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</DefPackage>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<DamageDef Name="LocalInjuryBase" Abstract="True">
+    <workerClass>DamageWorker_AddInjury</workerClass>
+  </DamageDef>
+
+
+<DamageDef Name="NNF_TAZED" ParentName="LocalInjuryBase">
+    <defName>NNF_Tazed</defName>
+    <label>tazed</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been electrocuted to death.</deathMessage>
+    <hediff>Crush</hediff>
+    <hediffSkin>Cut</hediffSkin>
+    <hediffSolid>Crack</hediffSolid>
+    <additionalHediffs>
+      <li>
+        <hediff>NNF_Incapacitated</hediff>
+      </li>
+    </additionalHediffs>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+  </DamageDef>
+
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>NNF_StunBaton</defName>
+    <label>ëlectrocuted</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been electrocuted to death.</deathMessage>
+    <hediff>Bruise</hediff>
+    <hediffSkin>Burn</hediffSkin>
+    <hediffSolid>Crack</hediffSolid>
+    <additionalHediffs>
+      <li>
+        <hediff>NNF_Incapacitated</hediff>
+      </li>
+    </additionalHediffs>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+  </DamageDef>
+
+
+</Defs>
+
+  

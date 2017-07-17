@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
+	<ThingDef ParentName="BaseMeleeWeapon_Electric">
 		<defName>NNF_Melee_StunBaton</defName>
 		<label>stun baton</label>
 		<description>A melee weapon to keep disobedient prisoners at bay, or Gordon Freeman.</description>
@@ -17,10 +17,12 @@
 			<MeleeWeapon_Cooldown>2.0</MeleeWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
+    <costList>
+      <Component>3</Component>
+    </costList>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
-
 		<verbs>
 			<li>
 				<verbClass>Verb_MeleeAttack</verbClass>
@@ -68,6 +70,40 @@
     </inspectorTabs>
   </ThingDef>
 
+  <ThingDef Name="NNF_BaseMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Industrial</techLevel>
+    <smeltable>true</smeltable>
+    <weaponTags>
+      <li>Melee</li>
+    </weaponTags>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_WeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+
   <ThingDef Name="BaseMeleeWeapon_Blunt" ParentName="BaseMeleeWeapon" Abstract="True">
     <recipeMaker>
       <defaultIngredientFilter>
@@ -81,6 +117,25 @@
       </defaultIngredientFilter>
     </recipeMaker>
   </ThingDef>
+
+  <ThingDef Name="BaseMeleeWeapon_Electric" ParentName="NNF_BaseMeleeWeapon" Abstract="True">
+    <recipeMaker>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <exceptedThingDefs>
+          <li>Silver</li>
+          <li>Gold</li>
+        </exceptedThingDefs>
+      </defaultIngredientFilter>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+
 
 </Defs>
 

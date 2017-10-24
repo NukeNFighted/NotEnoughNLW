@@ -35,7 +35,7 @@
       <AccuracyShort>0.85</AccuracyShort>
       <AccuracyMedium>0.75</AccuracyMedium>
       <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>30</Steel>
@@ -43,7 +43,7 @@
     </costList>
     <verbs>
       <li>
-        <verbClass>Verb_ShootOneUse</verbClass>
+        <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>NNF_Bullet_Tazer</projectileDef>
         <warmupTime>0.3</warmupTime>
